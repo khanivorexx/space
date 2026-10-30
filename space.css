@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "space grotesk", sans-serif;
+}
+main {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2)),
+    url("https://www.desktophut.com/images/3274_mpc-hc64_KWtgOkeeyn.jpg");
+  padding: 50px 120px 50px 120px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 150px;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+.menu {
+  display: none;
+}
+nav button {
+  min-width: 110px;
+  min-height: 30px;
+  border: 0px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+nav button:hover {
+  background-color: brown;
+}
+nav button:active {
+  background-color: rgba(165, 42, 42, 0.502);
+}
+.container {
+  max-width: 600px;
+  margin-top: 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container h1 {
+  font-size: 48px;
+}
+.container p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search {
+  background-color: white;
+  display: inline-flex;
+  min-height: 40px;
+  max-width: 400px;
+  gap: 2px;
+  border-radius: 6px;
+  justify-content: space-between;
+  padding: 4px;
+}
+input {
+  border: 0px;
+  width: 100%;
+  margin-left: 4px;
+}
+input:focus {
+  outline: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.container button {
+  min-width: 50px;
+  background-color: black;
+  color: white;
+  border: 0px solid;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: brown;
+}
+.container button:active {
+  background-color: rgba(165, 42, 42, 0.519);
+}
+.s1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-size: cover;
+  background-position: center;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 1)),
+    url(Ethereal\ White\ Halo\ City.png);
+}
+.s1 h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.s1 p {
+  text-align: center;
+}
+.s1alldiv {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 70px;
+  column-gap: 70px;
+}
+.s1div1 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.s1div2 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.s1div3 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.s1div4 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.s1div5 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.s1div6 {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.s2 {
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4)),
+    url(https://images.hdqwalls.com/download/interstellar-astronaut-4k-yr-2560x1440.jpg);
+}
+.s2div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.s2 span {
+  width: 250px;
+  text-align: center;
+}
+.s3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.s3div1 {
+  max-width: 450px;
+  max-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.s3div1 h1 {
+  font-size: 48px;
+}
+.s3div1 button {
+  color: white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0px solid;
+  max-width: 60px;
+  cursor: pointer;
+}
+.s3div1 button:hover {
+  background-color: brown;
+}
+.s3div1 button:active {
+  background-color: rgba(165, 42, 42, 0.485);
+}
+.s3div2 {
+  width: 450px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  background-image: url(https://img.magnific.com/premium-photo/space-portal-space-view-event-horizon-universe-interstellar_763713-3882.jpg?semt=ais_hybrid&w=740&q=80);
+}
+.s3div3 {
+  width: 450px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/049/965/345/4k/vadim-sadovski-art2.jpg?1653740875);
+}
+.s3div4 {
+  max-width: 450px;
+  max-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.s3div4 h1 {
+  font-size: 48px;
+}
+.s3div4 button {
+  color: white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0px solid;
+  max-width: 60px;
+  cursor: pointer;
+}
+.s3div4 button:hover {
+  background-color: brown;
+}
+.s3div4 button:active {
+  background-color: rgba(165, 42, 42, 0.518);
+}
+.s4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.s4 h1 {
+  font-size: 48px;
+}
+.s4 p {
+  margin-bottom: 30px;
+}
+.s4alldiv {
+  display: flex;
+  gap: 5px;
+}
+.s4d1 {
+  display: inline-flex;
+  align-items: center;
+}
+.logo1 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.s4d2 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 5px;
+}
+.logo2 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.logo3 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.s4d3 {
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 5px;
+}
+.logo4 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.logo5 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.logo6 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.s4d4 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 5px;
+}
+.logo7 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.logo8 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.s4d5 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 5px;
+}
+.logo9 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 10px;
+}
+.s5 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.s5 h1 {
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.s5 p {
+  color: white;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.s5 button {
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight: 600;
+  cursor: pointer;
+}
+.s5 button:hover {
+  background-color: brown;
+}
+.s5 button:active {
+  background-color: rgba(165, 42, 42, 0.482);
+}
+footer {
+  box-shadow: 0px -1px 5px 1px brown;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+footer h1 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+footer p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.falldiv {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.fdiv5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 25px 0px 25px;
+}
+.socialdiv {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 945px) {
+  nav span {
+    display: none;
+  }
+  nav button {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .s1 {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  main {
+    padding: 25px 60px;
+  }
+  .s1 {
+    padding: 0px 25px;
+  }
+  .s3 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .s4alldiv {
+    flex-direction: column;
+  }
+}
+@media (max-width: 840px) {
+  .falldiv {
+    display: block;
+  }
+  .fdiv5 {
+    display: block;
+  }
+}
